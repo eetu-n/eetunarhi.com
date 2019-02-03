@@ -26,7 +26,11 @@
         <div class="section">
             <div class="row valign-wrapper">
                 <div class="col s6 offset-s3 m4 offset-m2">
-                    <img src="images/eetu.jpg" class="circle responsive-img">
+                    <picture>
+                        <source media="(min-width: 1000px)"  class="circle responsive-img" srcset="images/eetu1000.jpg">
+                        <source media="(min-width: 500px)" class="circle responsive-img" srcset="images/eetu500.jpg">
+                        <img class="circle responsive-img" src="images/eetu300.jpg">
+                    </picture>
                 </div>
                 <div class="col s12 m6 hide-on-small-only left-align">
                     <h1>Eetu Närhi</h1>
